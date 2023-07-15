@@ -1,13 +1,15 @@
-import React from "react";
-import Card from './Card.js'
+import React, { Component } from "react";
+import Card from './Card'
 
-function CardList(props){
+class CardList extends Component{
+    render(){
 
-    return (
-        props.Data.map((cardData) => (
-            <Card  cardData={cardData} />
-          ))
-    );
+        return (
+            this.props.Data.map((cardData) => (
+                <Card  cardData={cardData} />
+              ))
+        );
+    }
 }
 
 export default CardList;
