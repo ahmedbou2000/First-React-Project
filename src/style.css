@@ -3,6 +3,7 @@
 }
 
 .card-container {
+    margin-top: 50px;
 }
 
 .card {
@@ -30,8 +31,9 @@
     font-size: 20px;
     margin: 20px 0 ;
 }
-
-
+.btnAfficher {
+    width: 100%;
+}
 
 
 
